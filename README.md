@@ -61,7 +61,8 @@ This command will take the `app_to_compile.py` file, and it will use the icon fi
 
 ## Limitations
 
-PyCompiler, as a wrapper around the PyInstaller library, inherits the limitations of PyInstaller. So please keep that in mind!
+- PyCompiler, as a wrapper around the PyInstaller library, inherits the limitations of PyInstaller. So please keep that in mind!
+- PyC was so far only tested with macOS montarey
 
 ## Contribution
 
