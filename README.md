@@ -45,16 +45,17 @@ It should contain a JSON object with the following fields:
 
 - Python 3
 - PyInstaller
-- logger (should be included in this repository if not download from [here](https://github.com/duch3201/logger)
+- logger (should be included in this repository if not download from [here](https://github.com/duch3201/logger))
 
 ## Examples
+
+`./PyC.py --input app_to_compile.py --icon path/to/icon.ico --output-name outfile --output-path /path/to/save --delete-original`
 
 This command will take the `app_to_compile.py` file, and it will use the icon file at `path/to/icon.ico`, and it will save the output file as `outfile` in the `/path/to/save` directory and it will delete the original python file.
 
 ## Limitations
 
-- Currently, the script only supports reading options from a `config.json` file.
-- It's only tested on Linux, and MacOS
+PyCompiler, as a wrapper around the PyInstaller library, inherits the limitations of PyInstaller. So please keep that in mind!
 
 ## Contribution
 
