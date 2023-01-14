@@ -10,11 +10,9 @@ cd PyC
 if command -v wget > /dev/null; then
   wget https://github.com/yourusername/PyCompiler/PyC.py
   wget https://github.com/yourusername/PyCompiler/logger.py
-  wget https://github.com/yourusername/PyCompiler/Sample_config.json
 elif command -v curl > /dev/null; then
   curl -O https://github.com/yourusername/PyCompiler/PyC.py
   curl -O https://github.com/yourusername/PyCompiler/logger.py
-  curl -O https://github.com/yourusername/PyCompiler/Sample_config.json
 else
   echo "Error: wget or curl is not installed. Please install one of them and try again."
   exit 1
