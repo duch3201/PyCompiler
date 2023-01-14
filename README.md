@@ -2,6 +2,12 @@
 
 PyCompiler is a simple wrapper around the [PyInstaller](https://www.pyinstaller.org/) library that makes it easy to compile Python scripts into standalone executables.
 
+## Installation
+
+Please use the [install.sh](install.sh) as it's the cleanest & fastest way to install and configure PyC
+
+Feel free to also use the precompiled binary
+
 ## Features
 
 - Compiles Python scripts into standalone executables for Linux, and macOS.
